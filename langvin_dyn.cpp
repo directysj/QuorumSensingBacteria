@@ -206,11 +206,7 @@ int main()
 		// Total energy of the system
 		etot=ke+pe;
 
-		if(i%5000==0){ 
-			 cout << i << " " << (double)i*dt << " " << pe<< " " 
-				 << ke << " " << etot<< " " << tinst << endl;
-			 cout << api[5] <<" "<< api[89] <<" "<< api[245] <<" "<< api[323] << endl;
-		}
+		// if(i%5000==0) cout << i << " " << (double)i*dt << " " << pe<< " " << ke << " " << etot<< " " << tinst << endl;
 
 		// Storing trajectory and calculation of correlations
 		if(i>neq){ 
