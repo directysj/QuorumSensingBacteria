@@ -76,7 +76,7 @@ int main()
 
 	dim = 2;
 
-	/* Read Coordinates */
+	/* Read input parameters of the simulation */
 	inp.open("inp.dat",ios::in);
 	if(inp){
 		inp >> npa >> npb >> nav >> sigb >> eps >> tf >> si >> teq >> te >> de >> dt >> gama;
